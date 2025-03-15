@@ -36,9 +36,9 @@ const Login = () => {
   }
 
   return (
-    <div>
-      <h1 className="text-3xl text-center font-bold">Login</h1>
-      <form onSubmit={loginUser} className="max-w-md mx-auto mt-8 p-4 bg-white shadow-md rounded">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
+      <h1 className="text-4xl font-bold mb-8">Login</h1>
+      <form onSubmit={loginUser} className="w-full max-w-md bg-white p-6 rounded-lg shadow-md">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">Email:</label>
           <input

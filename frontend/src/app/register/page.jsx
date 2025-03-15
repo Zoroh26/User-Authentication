@@ -35,9 +35,9 @@ const Registration = () => {
   }
 
   return (
-    <div>
-      <h1 className="text-3xl text-center font-bold">Register</h1>
-      <form onSubmit={registerUser} className="max-w-md mx-auto mt-8 p-4 bg-white shadow-md rounded">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
+      <h1 className="text-4xl font-bold mb-8">Register</h1>
+      <form onSubmit={registerUser} className="w-full max-w-md bg-white p-6 rounded-lg shadow-md">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">Name:</label>
           <input
